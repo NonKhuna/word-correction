@@ -26,6 +26,7 @@ the dataset in this experiment is a pair of transcribed and reference texts expo
 |wer_score|12%|10%|1%|3%|WER score
 |accuracy|45%|59%|*96%|78%|Exact match ( the reference text === the transcript text)
 
+The table shows the MBart model achieves the highest score of 96% accuracy and 1% WER score. However, due to a lack of variety of data, generative models like MBart may be overfitting as shown in the results of the wrong number rate. Therefore, The Norvig approach may be better on small datasets.
 
 ## Appendix
 
